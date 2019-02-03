@@ -1,12 +1,14 @@
+import actionTypes from './types';
+
 export const signIn = () => {
     return {
-        type: 'SIGN_IN',
+        type: actionTypes.SIGN_IN,
     };
 };
 
 export const signOut = () => {
     return {
-        type: 'SIGN_OUT',
+        type: actionTypes.SIGN_OUT,
     };
 };
 
