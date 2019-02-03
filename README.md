@@ -14,7 +14,7 @@ This project relies on [Google's API Client Library](https://developers.google.c
 
 1. Register an account at console.developers.google.com and [create a new project](https://console.developers.google.com) 
 2. Create a new OAuth Client ID and Client Secret in the Credentials section of your project. This app will use the Client Id to make requests to the Google OAuth API.
-3. Copy the .env file in the root of this project, rename it to .env.local, and set the value of REACT_APP_GOOGLE_OAUTH_CLIENT_ID to your OAuth Client Id.
+3. Make a copy of the .env file in the /client folder of this project, rename it to .env.local, and set the value of REACT_APP_GOOGLE_OAUTH_CLIENT_ID to your OAuth Client Id.
 4. In the terminal, from within the `client/src` folder of the project, run `npm start` to start the application
 
 All content and instructions came from the excellent [Udemy Modern React with Redux course](https://www.udemy.com/react-redux/).
