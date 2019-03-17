@@ -9,6 +9,7 @@ const createActionTypes = (actionTypes) => {
 const actionTypes = createActionTypes([
     'SIGN_IN',
     'SIGN_OUT',
+    'CREATE_STREAM',
 ]);
 
 export default actionTypes;

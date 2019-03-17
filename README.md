@@ -9,6 +9,7 @@ The application demonstrates the following key areas of technical interest:
 * Configuring navigation and browser history in a single-page-application context using [react-router-dom](https://www.npmjs.com/package/react-router-dom), specifically with the BrowserRouter component
 * Authentication with [Google API](https://developers.google.com/api-client-library/javascript/reference/referencedocs) and their [OAuth 2.0 Library](https://developers.google.com/api-client-library/javascript/reference/referencedocs#authentication)
 * [Semantic UI](https://semantic-ui.com/) for CSS and component styling
+* Use of npm [json-server](https://www.npmjs.com/package/json-server) as a stub REST-ful API server for CRUD operations
 
 This project relies on [Google's API Client Library](https://developers.google.com/api-client-library/javascript/reference/referencedocs) to implement OAuth-based authentication. To use this app, you must supply your own OAuth Client Id (I do not provide my own). Below are the steps to set up a Client Id:
 
