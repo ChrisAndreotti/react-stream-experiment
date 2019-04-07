@@ -24,12 +24,19 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the `client/src` folder of the project, you can run:
+To run the application you must start up the front-end React website along with the back-end API.
+
+First, start up the back-end API by navigating to the `api/src` folder of the project and running:
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This will launch npm's [json-server](https://www.npmjs.com/package/json-server) on localhost:3001, and is used for all of the application's CRUD operations. This application is for demo-purposes, so stream data is simply stored in the `api/db.json` flat file.
+
+Next, start the React website by navigating to the `client/src` folder of the project and running:
+
+### `npm start`
+
+This runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
